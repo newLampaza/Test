@@ -1,0 +1,768 @@
+2025-03-03 11:54:17,761 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.141.24:5000
+2025-03-03 11:54:17,761 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 11:54:17,769 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 11:54:25,490 - werkzeug - WARNING -  * Debugger is active!
+2025-03-03 11:54:25,496 - werkzeug - INFO -  * Debugger PIN: 782-160-045
+2025-03-03 11:54:26,294 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:26] "GET / HTTP/1.1" 200 -
+2025-03-03 11:54:26,369 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:26] "GET /assets/index-CpKh2xyC.css HTTP/1.1" 200 -
+2025-03-03 11:54:26,629 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:26] "GET /assets/index-DiEwnttZ.js HTTP/1.1" 200 -
+2025-03-03 11:54:26,785 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:26] "[31m[1mGET /api/profile HTTP/1.1[0m" 401 -
+2025-03-03 11:54:26,793 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:26] "[31m[1mGET /api/flights?limit=1 HTTP/1.1[0m" 401 -
+2025-03-03 11:54:26,793 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:26] "[31m[1mGET /api/crew HTTP/1.1[0m" 401 -
+2025-03-03 11:54:26,801 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:26] "[31m[1mGET /api/flight-eligibility HTTP/1.1[0m" 401 -
+2025-03-03 11:54:26,809 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:26] "GET /vite.svg HTTP/1.1" 200 -
+2025-03-03 11:54:41,945 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:41] "POST /api/login HTTP/1.1" 200 -
+2025-03-03 11:54:41,978 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:41] "GET /api/flights?limit=1 HTTP/1.1" 200 -
+2025-03-03 11:54:41,978 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:41] "GET /api/crew HTTP/1.1" 200 -
+2025-03-03 11:54:41,986 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:41] "GET /api/profile HTTP/1.1" 200 -
+2025-03-03 11:54:41,986 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:41] "GET /api/flight-eligibility HTTP/1.1" 200 -
+2025-03-03 11:54:46,579 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:46] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-03 11:54:46,637 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:46] "[36mGET /assets/index-DiEwnttZ.js HTTP/1.1[0m" 304 -
+2025-03-03 11:54:46,638 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:46] "[36mGET /assets/index-CpKh2xyC.css HTTP/1.1[0m" 304 -
+2025-03-03 11:54:46,728 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:46] "GET /api/profile HTTP/1.1" 200 -
+2025-03-03 11:54:46,745 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:46] "GET /api/crew HTTP/1.1" 200 -
+2025-03-03 11:54:46,753 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:46] "GET /api/flight-eligibility HTTP/1.1" 200 -
+2025-03-03 11:54:46,762 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:46] "GET /api/flights?limit=1 HTTP/1.1" 200 -
+2025-03-03 11:54:46,769 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:54:46] "[36mGET /vite.svg HTTP/1.1[0m" 304 -
+2025-03-03 11:55:07,654 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:07] "GET /api/flights HTTP/1.1" 200 -
+2025-03-03 11:55:13,861 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:13] "GET /api/profile HTTP/1.1" 200 -
+2025-03-03 11:55:13,870 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:13] "GET /api/flights?limit=1 HTTP/1.1" 200 -
+2025-03-03 11:55:13,878 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:13] "GET /api/crew HTTP/1.1" 200 -
+2025-03-03 11:55:13,889 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:13] "GET /api/flight-eligibility HTTP/1.1" 200 -
+2025-03-03 11:55:16,969 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:16] "GET /api/flights HTTP/1.1" 200 -
+2025-03-03 11:55:22,091 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:22] "GET /api/cognitive-tests HTTP/1.1" 200 -
+2025-03-03 11:55:23,567 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:23] "POST /api/tests/start HTTP/1.1" 200 -
+2025-03-03 11:55:23,601 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:23] "POST /api/tests/start HTTP/1.1" 200 -
+2025-03-03 11:55:31,009 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:31] "POST /api/tests/submit HTTP/1.1" 200 -
+2025-03-03 11:55:31,041 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:31] "GET /api/cognitive-tests HTTP/1.1" 200 -
+2025-03-03 11:55:31,043 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:31] "GET /api/tests/results/32 HTTP/1.1" 200 -
+2025-03-03 11:55:33,957 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:33] "GET /api/flights?completed=true HTTP/1.1" 200 -
+2025-03-03 11:55:44,931 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:44] "[31m[1mPOST /api/feedback HTTP/1.1[0m" 409 -
+2025-03-03 11:55:46,360 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:46] "GET /api/feedback HTTP/1.1" 200 -
+2025-03-03 11:55:57,180 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:57] "GET /api/fatigue/history HTTP/1.1" 200 -
+2025-03-03 11:55:57,190 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:55:57] "GET /api/flights/last-completed HTTP/1.1" 200 -
+2025-03-03 11:56:09,917 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:56:09] "GET /api/profile HTTP/1.1" 200 -
+2025-03-03 11:56:09,925 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:56:09] "GET /api/flights?limit=1 HTTP/1.1" 200 -
+2025-03-03 11:56:09,929 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:56:09] "GET /api/crew HTTP/1.1" 200 -
+2025-03-03 11:56:09,939 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:56:09] "GET /api/flight-eligibility HTTP/1.1" 200 -
+2025-03-03 11:56:12,069 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:56:12] "GET /api/flights?completed=true HTTP/1.1" 200 -
+2025-03-03 11:56:13,263 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:56:13] "GET /api/flights?completed=true HTTP/1.1" 200 -
+2025-03-03 11:56:13,941 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:56:13] "GET /api/cognitive-tests HTTP/1.1" 200 -
+2025-03-03 11:56:20,673 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:56:20] "POST /api/tests/start HTTP/1.1" 200 -
+2025-03-03 11:56:20,709 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:56:20] "POST /api/tests/start HTTP/1.1" 200 -
+2025-03-03 11:56:24,976 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:56:24] "GET /api/flights/last-completed HTTP/1.1" 200 -
+2025-03-03 11:56:24,984 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:56:24] "GET /api/fatigue/history HTTP/1.1" 200 -
+2025-03-03 11:56:50,923 - routes - INFO - Original video saved: neural_network\data\video\735d1956-7179-481a-bb97-fe80955a4adf.webm
+2025-03-03 11:56:52,376 - routes - INFO - FFmpeg output:
+ffmpeg version 7.1-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'neural_network\data\video\735d1956-7179-481a-bb97-fe80955a4adf.webm':
+  Metadata:
+    encoder         : Chrome
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv), 640x480, SAR 1:1 DAR 4:3, 1k tbr, 1k tbn (default)
+      Metadata:
+        alpha_mode      : 1
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp9 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 000002986a4636c0] using SAR=1/1
+[libx264 @ 000002986a4636c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 000002986a4636c0] profile High, level 2.2, 4:2:0, 8-bit
+[libx264 @ 000002986a4636c0] 264 - core 164 r3192 c24e06c - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=2 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=6 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=15 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=15 scenecut=40 intra_refresh=0 rc_lookahead=30 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'neural_network\data\video\converted_00e444a0-84f6-473a-b8e1-cd8ba6526bc3.mp4':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0(eng): Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 640x480 [SAR 1:1 DAR 4:3], q=2-31, 15 fps, 15360 tbn (default)
+      Metadata:
+        alpha_mode      : 1
+        encoder         : Lavc61.19.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[mp4 @ 000002986a023d40] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 000002986a02c9c0] video:281KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.649794%
+frame=   86 fps=0.0 q=-1.0 Lsize=     282KiB time=00:00:05.60 bitrate= 413.1kbits/s dup=0 drop=82 speed=11.2x    
+[libx264 @ 000002986a4636c0] frame I:1     Avg QP:19.93  size:  7670
+[libx264 @ 000002986a4636c0] frame P:26    Avg QP:20.25  size:  6436
+[libx264 @ 000002986a4636c0] frame B:59    Avg QP:22.42  size:  1892
+[libx264 @ 000002986a4636c0] consecutive B-frames:  5.8%  7.0%  3.5% 83.7%
+[libx264 @ 000002986a4636c0] mb I  I16..4: 17.7% 76.7%  5.7%
+[libx264 @ 000002986a4636c0] mb P  I16..4:  5.9% 13.1%  0.6%  P16..4: 44.2% 16.7%  7.9%  0.0%  0.0%    skip:11.6%
+[libx264 @ 000002986a4636c0] mb B  I16..4:  3.5%  1.9%  0.0%  B16..8: 29.6%  6.2%  0.2%  direct:20.8%  skip:37.8%  L0:45.4% L1:47.0% BI: 7.6%
+[libx264 @ 000002986a4636c0] 8x8 transform intra:56.9% inter:69.7%
+[libx264 @ 000002986a4636c0] coded y,uvDC,uvAC intra: 25.1% 53.8% 7.0% inter: 14.4% 42.8% 0.5%
+[libx264 @ 000002986a4636c0] i16 v,h,dc,p: 38% 19% 22% 21%
+[libx264 @ 000002986a4636c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 18% 32%  3%  4%  4%  3%  3%  3%
+[libx264 @ 000002986a4636c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27% 19% 17%  6%  8%  8%  6%  5%  5%
+[libx264 @ 000002986a4636c0] i8c dc,h,v,p: 54% 25% 19%  3%
+[libx264 @ 000002986a4636c0] Weighted P-Frames: Y:30.8% UV:19.2%
+[libx264 @ 000002986a4636c0] ref P L0: 65.4% 34.6%
+[libx264 @ 000002986a4636c0] ref B L0: 73.7% 26.3%
+[libx264 @ 000002986a4636c0] ref B L1: 91.9%  8.1%
+[libx264 @ 000002986a4636c0] kb/s:399.95
+
+2025-03-03 11:57:02,360 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:57:02] "[35m[1mPOST /api/fatigue/analyze HTTP/1.1[0m" 201 -
+2025-03-03 11:57:05,069 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:57:05] "[35m[1mGET /api/videos/converted_00e444a0-84f6-473a-b8e1-cd8ba6526bc3.mp4 HTTP/1.1[0m" 206 -
+2025-03-03 11:57:11,636 - routes - INFO - Incoming feedback data: {'analysis_id': 86, 'score': 5}
+2025-03-03 11:57:11,650 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:57:11] "POST /api/fatigue/feedback HTTP/1.1" 200 -
+2025-03-03 11:57:29,092 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:57:29] "GET /api/profile HTTP/1.1" 200 -
+2025-03-03 11:57:29,096 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:57:29] "GET /api/crew HTTP/1.1" 200 -
+2025-03-03 11:57:29,096 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:57:29] "GET /api/flights?limit=1 HTTP/1.1" 200 -
+2025-03-03 11:57:29,112 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:57:29] "GET /api/flight-eligibility HTTP/1.1" 200 -
+2025-03-03 11:57:34,326 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:57:34] "GET /api/flights HTTP/1.1" 200 -
+2025-03-03 11:57:39,561 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:57:39] "GET /api/profile HTTP/1.1" 200 -
+2025-03-03 11:57:39,561 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:57:39] "GET /api/flights?limit=1 HTTP/1.1" 200 -
+2025-03-03 11:57:39,561 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:57:39] "GET /api/crew HTTP/1.1" 200 -
+2025-03-03 11:57:39,584 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 11:57:39] "GET /api/flight-eligibility HTTP/1.1" 200 -
+2025-03-16 22:46:00,325 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.103.24:5000
+2025-03-16 22:46:00,326 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 22:46:00,329 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 22:46:05,850 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 22:46:05,853 - werkzeug - INFO -  * Debugger PIN: 782-160-045
+2025-03-16 22:46:18,920 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:46:18] "GET / HTTP/1.1" 200 -
+2025-03-16 22:46:20,234 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:46:20] "GET / HTTP/1.1" 200 -
+2025-03-16 22:46:20,309 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:46:20] "GET /assets/index-CpKh2xyC.css HTTP/1.1" 200 -
+2025-03-16 22:46:20,447 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:46:20] "GET /assets/index-DiEwnttZ.js HTTP/1.1" 200 -
+2025-03-16 22:46:20,569 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:46:20] "[31m[1mGET /api/profile HTTP/1.1[0m" 401 -
+2025-03-16 22:46:20,574 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:46:20] "[31m[1mGET /api/flights?limit=1 HTTP/1.1[0m" 401 -
+2025-03-16 22:46:20,575 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:46:20] "[31m[1mGET /api/crew HTTP/1.1[0m" 401 -
+2025-03-16 22:46:20,579 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:46:20] "[31m[1mGET /api/flight-eligibility HTTP/1.1[0m" 401 -
+2025-03-16 22:46:20,586 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:46:20] "GET /vite.svg HTTP/1.1" 200 -
+2025-03-16 22:46:33,775 - werkzeug - INFO - 192.168.103.24 - - [16/Mar/2025 22:46:33] "GET / HTTP/1.1" 200 -
+2025-03-16 22:46:33,844 - werkzeug - INFO - 192.168.103.24 - - [16/Mar/2025 22:46:33] "GET /assets/index-DiEwnttZ.js HTTP/1.1" 200 -
+2025-03-16 22:46:33,846 - werkzeug - INFO - 192.168.103.24 - - [16/Mar/2025 22:46:33] "GET /assets/index-CpKh2xyC.css HTTP/1.1" 200 -
+2025-03-16 22:46:33,971 - werkzeug - INFO - 192.168.103.24 - - [16/Mar/2025 22:46:33] "GET /vite.svg HTTP/1.1" 200 -
+2025-03-16 22:46:52,817 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:46:52] "POST /api/login HTTP/1.1" 200 -
+2025-03-16 22:46:52,836 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:46:52] "GET /api/profile HTTP/1.1" 200 -
+2025-03-16 22:46:52,837 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:46:52] "GET /api/crew HTTP/1.1" 200 -
+2025-03-16 22:46:52,839 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:46:52] "GET /api/flight-eligibility HTTP/1.1" 200 -
+2025-03-16 22:46:52,851 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:46:52] "GET /api/flights?limit=1 HTTP/1.1" 200 -
+2025-03-16 22:47:15,999 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:47:15] "[36mGET /assets/index-CpKh2xyC.css HTTP/1.1[0m" 304 -
+2025-03-16 22:50:31,551 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:50:31] "GET /api/flights?completed=true HTTP/1.1" 200 -
+2025-03-16 22:50:58,554 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:50:58] "GET /api/flights/last-completed HTTP/1.1" 200 -
+2025-03-16 22:50:58,571 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:50:58] "GET /api/fatigue/history HTTP/1.1" 200 -
+2025-03-16 22:57:08,303 - werkzeug - INFO - 192.168.103.24 - - [16/Mar/2025 22:57:08] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-16 22:57:08,351 - werkzeug - INFO - 192.168.103.24 - - [16/Mar/2025 22:57:08] "[36mGET /assets/index-DiEwnttZ.js HTTP/1.1[0m" 304 -
+2025-03-16 22:57:08,363 - werkzeug - INFO - 192.168.103.24 - - [16/Mar/2025 22:57:08] "[36mGET /assets/index-CpKh2xyC.css HTTP/1.1[0m" 304 -
+2025-03-16 22:57:08,482 - werkzeug - INFO - 192.168.103.24 - - [16/Mar/2025 22:57:08] "[36mGET /vite.svg HTTP/1.1[0m" 304 -
+2025-03-16 22:58:20,890 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:58:20] "GET /api/profile HTTP/1.1" 200 -
+2025-03-16 22:58:20,893 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:58:20] "GET /api/flights?limit=1 HTTP/1.1" 200 -
+2025-03-16 22:58:20,896 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:58:20] "GET /api/flight-eligibility HTTP/1.1" 200 -
+2025-03-16 22:58:20,901 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 22:58:20] "GET /api/crew HTTP/1.1" 200 -
+2025-03-16 23:00:56,365 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:00:56] "GET /api/flights HTTP/1.1" 200 -
+2025-03-16 23:05:09,905 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:05:09] "GET /api/cognitive-tests HTTP/1.1" 200 -
+2025-03-16 23:07:45,807 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:07:45] "POST /api/tests/start HTTP/1.1" 200 -
+2025-03-16 23:07:45,823 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:07:45] "POST /api/tests/start HTTP/1.1" 200 -
+2025-03-16 23:08:27,542 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:27] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-16 23:08:27,571 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:27] "[36mGET /assets/index-DiEwnttZ.js HTTP/1.1[0m" 304 -
+2025-03-16 23:08:27,578 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:27] "[36mGET /assets/index-CpKh2xyC.css HTTP/1.1[0m" 304 -
+2025-03-16 23:08:27,668 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:27] "GET /api/flights?limit=1 HTTP/1.1" 200 -
+2025-03-16 23:08:27,672 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:27] "GET /api/crew HTTP/1.1" 200 -
+2025-03-16 23:08:27,672 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:27] "[36mGET /vite.svg HTTP/1.1[0m" 304 -
+2025-03-16 23:08:27,677 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:27] "GET /api/profile HTTP/1.1" 200 -
+2025-03-16 23:08:27,679 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:27] "GET /api/flight-eligibility HTTP/1.1" 200 -
+2025-03-16 23:08:29,828 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:29] "GET /api/flights?completed=true HTTP/1.1" 200 -
+2025-03-16 23:08:30,606 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:30] "GET /api/fatigue/history HTTP/1.1" 200 -
+2025-03-16 23:08:30,608 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:30] "GET /api/flights/last-completed HTTP/1.1" 200 -
+2025-03-16 23:08:32,290 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:32] "GET /api/cognitive-tests HTTP/1.1" 200 -
+2025-03-16 23:08:33,935 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:33] "POST /api/tests/start HTTP/1.1" 200 -
+2025-03-16 23:08:33,950 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:33] "POST /api/tests/start HTTP/1.1" 200 -
+2025-03-16 23:08:41,527 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:41] "POST /api/tests/submit HTTP/1.1" 200 -
+2025-03-16 23:08:41,541 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:41] "GET /api/cognitive-tests HTTP/1.1" 200 -
+2025-03-16 23:08:41,542 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:41] "GET /api/tests/results/33 HTTP/1.1" 200 -
+2025-03-16 23:08:55,065 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:08:55] "[31m[1mPOST /api/tests/start HTTP/1.1[0m" 429 -
+2025-03-16 23:21:02,819 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:21:02] "GET /api/flights?completed=true HTTP/1.1" 200 -
+2025-03-16 23:21:17,917 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:21:17] "GET /api/flights?completed=true HTTP/1.1" 200 -
+2025-03-16 23:21:58,420 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:21:58] "[31m[1mPOST /api/feedback HTTP/1.1[0m" 409 -
+2025-03-16 23:22:04,915 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:22:04] "[31m[1mPOST /api/feedback HTTP/1.1[0m" 409 -
+2025-03-16 23:22:07,939 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:22:07] "[35m[1mPOST /api/feedback HTTP/1.1[0m" 201 -
+2025-03-16 23:22:07,950 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:22:07] "GET /api/feedback HTTP/1.1" 200 -
+2025-03-16 23:23:25,957 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:23:25] "GET /api/flights/last-completed HTTP/1.1" 200 -
+2025-03-16 23:23:25,959 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:23:25] "GET /api/fatigue/history HTTP/1.1" 200 -
+2025-03-16 23:25:13,926 - routes - INFO - Original video saved: neural_network\data\video\54f81535-4160-4cfa-9205-98752ae6f71b.webm
+2025-03-16 23:25:17,399 - routes - INFO - FFmpeg output:
+ffmpeg version 7.1-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'neural_network\data\video\54f81535-4160-4cfa-9205-98752ae6f71b.webm':
+  Metadata:
+    encoder         : Chrome
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv), 640x480, SAR 1:1 DAR 4:3, 1k tbr, 1k tbn (default)
+      Metadata:
+        alpha_mode      : 1
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp9 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 000001e4d2c84a00] using SAR=1/1
+[libx264 @ 000001e4d2c84a00] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 000001e4d2c84a00] profile High, level 2.2, 4:2:0, 8-bit
+[libx264 @ 000001e4d2c84a00] 264 - core 164 r3192 c24e06c - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=2 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=6 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=15 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=15 scenecut=40 intra_refresh=0 rc_lookahead=30 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'neural_network\data\video\converted_02bbdd66-19b5-49ef-8f43-42a65c58d2ea.mp4':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0(eng): Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 640x480 [SAR 1:1 DAR 4:3], q=2-31, 15 fps, 15360 tbn (default)
+      Metadata:
+        alpha_mode      : 1
+        encoder         : Lavc61.19.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=  121 fps=0.0 q=27.0 size=     512KiB time=00:00:07.86 bitrate= 533.2kbits/s dup=0 drop=176 speed=15.3x    
+frame=  270 fps=263 q=27.0 size=    1024KiB time=00:00:17.86 bitrate= 469.5kbits/s dup=0 drop=320 speed=17.4x    
+[mp4 @ 000001e4d284c980] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 000001e4d284c880] video:1580KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.293355%
+frame=  326 fps=274 q=-1.0 Lsize=    1585KiB time=00:00:21.60 bitrate= 601.1kbits/s dup=0 drop=320 speed=18.2x    
+[libx264 @ 000001e4d2c84a00] frame I:3     Avg QP:18.20  size: 10063
+[libx264 @ 000001e4d2c84a00] frame P:89    Avg QP:21.67  size:  6385
+[libx264 @ 000001e4d2c84a00] frame B:234   Avg QP:22.86  size:  4355
+[libx264 @ 000001e4d2c84a00] consecutive B-frames:  4.0%  0.6%  0.9% 94.5%
+[libx264 @ 000001e4d2c84a00] mb I  I16..4: 12.2% 84.3%  3.5%
+[libx264 @ 000001e4d2c84a00] mb P  I16..4:  4.3% 14.1%  0.2%  P16..4: 51.0% 17.2% 10.0%  0.0%  0.0%    skip: 3.2%
+[libx264 @ 000001e4d2c84a00] mb B  I16..4:  7.0% 13.6%  0.0%  B16..8: 33.2%  8.3%  0.0%  direct:28.7%  skip: 9.1%  L0:54.4% L1:41.0% BI: 4.6%
+[libx264 @ 000001e4d2c84a00] 8x8 transform intra:69.1% inter:79.0%
+[libx264 @ 000001e4d2c84a00] coded y,uvDC,uvAC intra: 45.3% 87.0% 24.9% inter: 27.4% 77.9% 2.3%
+[libx264 @ 000001e4d2c84a00] i16 v,h,dc,p: 28% 22% 19% 31%
+[libx264 @ 000001e4d2c84a00] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 18% 21% 34%  4%  4%  4%  5%  4%  5%
+[libx264 @ 000001e4d2c84a00] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 28% 23% 12%  7%  8%  6%  7%  5%  4%
+[libx264 @ 000001e4d2c84a00] i8c dc,h,v,p: 58% 19% 18%  4%
+[libx264 @ 000001e4d2c84a00] Weighted P-Frames: Y:7.9% UV:6.7%
+[libx264 @ 000001e4d2c84a00] ref P L0: 50.4% 49.6%
+[libx264 @ 000001e4d2c84a00] ref B L0: 60.4% 39.6%
+[libx264 @ 000001e4d2c84a00] ref B L1: 83.0% 17.0%
+[libx264 @ 000001e4d2c84a00] kb/s:595.39
+
+2025-03-16 23:25:25,518 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:25:25] "[35m[1mPOST /api/fatigue/analyze HTTP/1.1[0m" 201 -
+2025-03-16 23:25:29,000 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:25:29] "[35m[1mGET /api/videos/converted_02bbdd66-19b5-49ef-8f43-42a65c58d2ea.mp4 HTTP/1.1[0m" 206 -
+2025-03-16 23:25:49,258 - routes - INFO - Original video saved: neural_network\data\video\90be0fd2-eca3-4faa-ba6e-36497989c6fc.webm
+2025-03-16 23:25:49,723 - routes - INFO - FFmpeg output:
+ffmpeg version 7.1-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'neural_network\data\video\90be0fd2-eca3-4faa-ba6e-36497989c6fc.webm':
+  Metadata:
+    encoder         : Chrome
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv), 640x480, SAR 1:1 DAR 4:3, 1k tbr, 1k tbn (default)
+      Metadata:
+        alpha_mode      : 1
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp9 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 000002094c4ce680] using SAR=1/1
+[libx264 @ 000002094c4ce680] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 000002094c4ce680] profile High, level 2.2, 4:2:0, 8-bit
+[libx264 @ 000002094c4ce680] 264 - core 164 r3192 c24e06c - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=2 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=6 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=15 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=15 scenecut=40 intra_refresh=0 rc_lookahead=30 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'neural_network\data\video\converted_19ee1efa-196a-43dd-accc-bd7a10ba5477.mp4':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0(eng): Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 640x480 [SAR 1:1 DAR 4:3], q=2-31, 15 fps, 15360 tbn (default)
+      Metadata:
+        alpha_mode      : 1
+        encoder         : Lavc61.19.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[mp4 @ 000002094c0ee900] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 000002094c05ca40] video:593KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.325303%
+frame=   92 fps=0.0 q=-1.0 Lsize=     595KiB time=00:00:06.00 bitrate= 812.1kbits/s dup=0 drop=88 speed=15.1x    
+[libx264 @ 000002094c4ce680] frame I:2     Avg QP:21.22  size: 15170
+[libx264 @ 000002094c4ce680] frame P:24    Avg QP:22.60  size:  8554
+[libx264 @ 000002094c4ce680] frame B:66    Avg QP:23.56  size:  5618
+[libx264 @ 000002094c4ce680] consecutive B-frames:  4.3%  0.0%  0.0% 95.7%
+[libx264 @ 000002094c4ce680] mb I  I16..4:  4.7% 86.8%  8.5%
+[libx264 @ 000002094c4ce680] mb P  I16..4:  6.5% 36.3%  1.3%  P16..4: 37.6% 12.7%  4.7%  0.0%  0.0%    skip: 1.0%
+[libx264 @ 000002094c4ce680] mb B  I16..4:  6.8% 23.3%  0.2%  B16..8: 30.7%  8.8%  0.1%  direct:25.6%  skip: 4.5%  L0:52.5% L1:41.5% BI: 6.1%
+[libx264 @ 000002094c4ce680] 8x8 transform intra:79.4% inter:75.1%
+[libx264 @ 000002094c4ce680] coded y,uvDC,uvAC intra: 59.4% 87.9% 28.0% inter: 32.3% 80.7% 2.4%
+[libx264 @ 000002094c4ce680] i16 v,h,dc,p: 33% 19% 18% 30%
+[libx264 @ 000002094c4ce680] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 25% 21% 24%  4%  4%  5%  5%  5%  6%
+[libx264 @ 000002094c4ce680] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 31% 22%  9%  6%  7%  8%  7%  6%  5%
+[libx264 @ 000002094c4ce680] i8c dc,h,v,p: 57% 17% 21%  5%
+[libx264 @ 000002094c4ce680] Weighted P-Frames: Y:4.2% UV:4.2%
+[libx264 @ 000002094c4ce680] ref P L0: 67.6% 32.4%
+[libx264 @ 000002094c4ce680] ref B L0: 80.8% 19.2%
+[libx264 @ 000002094c4ce680] ref B L1: 92.7%  7.3%
+[libx264 @ 000002094c4ce680] kb/s:791.00
+
+2025-03-16 23:25:56,097 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:25:56] "[35m[1mPOST /api/fatigue/analyze HTTP/1.1[0m" 201 -
+2025-03-16 23:25:58,657 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:25:58] "[35m[1mGET /api/videos/converted_19ee1efa-196a-43dd-accc-bd7a10ba5477.mp4 HTTP/1.1[0m" 206 -
+2025-03-16 23:26:24,039 - routes - INFO - Incoming feedback data: {'analysis_id': 88, 'score': 3}
+2025-03-16 23:26:24,045 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:26:24] "POST /api/fatigue/feedback HTTP/1.1" 200 -
+2025-03-16 23:26:45,023 - routes - INFO - Original video saved: neural_network\data\video\02523f8f-4d49-4bda-b75d-fede44856262.webm
+2025-03-16 23:26:45,778 - routes - INFO - FFmpeg output:
+ffmpeg version 7.1-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'neural_network\data\video\02523f8f-4d49-4bda-b75d-fede44856262.webm':
+  Metadata:
+    encoder         : Chrome
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv), 640x480, SAR 1:1 DAR 4:3, 1k tbr, 1k tbn (default)
+      Metadata:
+        alpha_mode      : 1
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp9 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0000013f59a63200] using SAR=1/1
+[libx264 @ 0000013f59a63200] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0000013f59a63200] profile High, level 2.2, 4:2:0, 8-bit
+[libx264 @ 0000013f59a63200] 264 - core 164 r3192 c24e06c - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=2 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=6 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=15 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=15 scenecut=40 intra_refresh=0 rc_lookahead=30 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'neural_network\data\video\converted_b7be0dbd-5d66-4ee3-a444-755f7cfcab52.mp4':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0(eng): Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 640x480 [SAR 1:1 DAR 4:3], q=2-31, 15 fps, 15360 tbn (default)
+      Metadata:
+        alpha_mode      : 1
+        encoder         : Lavc61.19.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=  131 fps=0.0 q=27.0 size=     512KiB time=00:00:08.60 bitrate= 487.8kbits/s dup=0 drop=185 speed=16.8x    
+[mp4 @ 0000013f59a625c0] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0000013f59a582c0] video:1020KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.312926%
+frame=  200 fps=0.0 q=-1.0 Lsize=    1023KiB time=00:00:13.20 bitrate= 634.7kbits/s dup=0 drop=197 speed=19.5x    
+[libx264 @ 0000013f59a63200] frame I:1     Avg QP:21.81  size: 16595
+[libx264 @ 0000013f59a63200] frame P:50    Avg QP:21.84  size:  7765
+[libx264 @ 0000013f59a63200] frame B:149   Avg QP:23.88  size:  4285
+[libx264 @ 0000013f59a63200] consecutive B-frames:  0.5%  0.0%  1.5% 98.0%
+[libx264 @ 0000013f59a63200] mb I  I16..4:  4.8% 82.6% 12.7%
+[libx264 @ 0000013f59a63200] mb P  I16..4:  2.2%  7.4%  0.1%  P16..4: 53.7% 23.5% 11.1%  0.0%  0.0%    skip: 2.1%
+[libx264 @ 0000013f59a63200] mb B  I16..4:  3.4%  9.4%  0.0%  B16..8: 36.0%  8.8%  0.1%  direct:31.9%  skip:10.3%  L0:54.6% L1:40.0% BI: 5.5%
+[libx264 @ 0000013f59a63200] 8x8 transform intra:74.3% inter:77.5%
+[libx264 @ 0000013f59a63200] coded y,uvDC,uvAC intra: 52.7% 91.8% 33.1% inter: 28.7% 77.6% 3.4%
+[libx264 @ 0000013f59a63200] i16 v,h,dc,p: 33% 16% 19% 32%
+[libx264 @ 0000013f59a63200] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 18% 20% 36%  4%  3%  3%  4%  5%  6%
+[libx264 @ 0000013f59a63200] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 25% 25% 14%  7%  6%  5%  6%  5%  7%
+[libx264 @ 0000013f59a63200] i8c dc,h,v,p: 64% 14% 18%  4%
+[libx264 @ 0000013f59a63200] Weighted P-Frames: Y:4.0% UV:4.0%
+[libx264 @ 0000013f59a63200] ref P L0: 49.8% 50.2%
+[libx264 @ 0000013f59a63200] ref B L0: 63.7% 36.3%
+[libx264 @ 0000013f59a63200] ref B L1: 86.1% 13.9%
+[libx264 @ 0000013f59a63200] kb/s:626.00
+
+2025-03-16 23:26:59,157 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:26:59] "[35m[1mPOST /api/fatigue/analyze HTTP/1.1[0m" 201 -
+2025-03-16 23:27:01,712 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:27:01] "[35m[1mGET /api/videos/converted_b7be0dbd-5d66-4ee3-a444-755f7cfcab52.mp4 HTTP/1.1[0m" 206 -
+2025-03-16 23:27:03,081 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:27:03] "[35m[1mGET /api/videos/converted_b7be0dbd-5d66-4ee3-a444-755f7cfcab52.mp4 HTTP/1.1[0m" 206 -
+2025-03-16 23:27:13,390 - routes - INFO - Original video saved: neural_network\data\video\0ccff330-2667-43be-936e-509d6e7d0886.webm
+2025-03-16 23:27:13,662 - routes - INFO - FFmpeg output:
+ffmpeg version 7.1-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'neural_network\data\video\0ccff330-2667-43be-936e-509d6e7d0886.webm':
+  Metadata:
+    encoder         : Chrome
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv), 640x480, SAR 1:1 DAR 4:3, 1k tbr, 1k tbn (default)
+      Metadata:
+        alpha_mode      : 1
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp9 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0000022232853440] using SAR=1/1
+[libx264 @ 0000022232853440] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0000022232853440] profile High, level 2.2, 4:2:0, 8-bit
+[libx264 @ 0000022232853440] 264 - core 164 r3192 c24e06c - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=2 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=6 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=15 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=15 scenecut=40 intra_refresh=0 rc_lookahead=30 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'neural_network\data\video\converted_8a0670b2-6f52-4d8b-b2d9-da25111dd577.mp4':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0(eng): Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 640x480 [SAR 1:1 DAR 4:3], q=2-31, 15 fps, 15360 tbn (default)
+      Metadata:
+        alpha_mode      : 1
+        encoder         : Lavc61.19.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[mp4 @ 0000022232852800] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 000002223285ca40] video:219KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.599826%
+frame=   40 fps=0.0 q=-1.0 Lsize=     221KiB time=00:00:02.53 bitrate= 713.4kbits/s dup=0 drop=39 speed=12.1x    
+[libx264 @ 0000022232853440] frame I:1     Avg QP:21.78  size: 16825
+[libx264 @ 0000022232853440] frame P:10    Avg QP:22.30  size:  7685
+[libx264 @ 0000022232853440] frame B:29    Avg QP:23.88  size:  4490
+[libx264 @ 0000022232853440] consecutive B-frames:  2.5%  0.0%  7.5% 90.0%
+[libx264 @ 0000022232853440] mb I  I16..4:  5.1% 83.2% 11.7%
+[libx264 @ 0000022232853440] mb P  I16..4:  2.8%  9.8%  0.1%  P16..4: 56.4% 19.6%  9.9%  0.0%  0.0%    skip: 1.5%
+[libx264 @ 0000022232853440] mb B  I16..4:  3.5% 10.8%  0.0%  B16..8: 36.8%  8.9%  0.1%  direct:32.0%  skip: 7.8%  L0:51.2% L1:42.3% BI: 6.5%
+[libx264 @ 0000022232853440] 8x8 transform intra:76.9% inter:76.5%
+[libx264 @ 0000022232853440] coded y,uvDC,uvAC intra: 58.4% 90.7% 34.8% inter: 29.4% 82.5% 2.7%
+[libx264 @ 0000022232853440] i16 v,h,dc,p: 31% 15% 19% 35%
+[libx264 @ 0000022232853440] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 19% 21% 32%  5%  4%  4%  5%  5%  6%
+[libx264 @ 0000022232853440] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 31% 26%  8%  6%  6%  6%  6%  5%  6%
+[libx264 @ 0000022232853440] i8c dc,h,v,p: 62% 15% 19%  4%
+[libx264 @ 0000022232853440] Weighted P-Frames: Y:30.0% UV:20.0%
+[libx264 @ 0000022232853440] ref P L0: 64.0% 36.0%
+[libx264 @ 0000022232853440] ref B L0: 65.7% 34.3%
+[libx264 @ 0000022232853440] ref B L1: 87.9% 12.1%
+[libx264 @ 0000022232853440] kb/s:671.62
+
+2025-03-16 23:27:16,574 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:27:16] "[35m[1mPOST /api/fatigue/analyze HTTP/1.1[0m" 201 -
+2025-03-16 23:27:19,149 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:27:19] "[35m[1mGET /api/videos/converted_8a0670b2-6f52-4d8b-b2d9-da25111dd577.mp4 HTTP/1.1[0m" 206 -
+2025-03-16 23:27:33,077 - routes - INFO - Original video saved: neural_network\data\video\e774be2a-89ba-410b-bfa0-71116ef04677.webm
+2025-03-16 23:27:33,442 - routes - INFO - FFmpeg output:
+ffmpeg version 7.1-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'neural_network\data\video\e774be2a-89ba-410b-bfa0-71116ef04677.webm':
+  Metadata:
+    encoder         : Chrome
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv), 640x480, SAR 1:1 DAR 4:3, 1k tbr, 1k tbn (default)
+      Metadata:
+        alpha_mode      : 1
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp9 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 00000173adf53380] using SAR=1/1
+[libx264 @ 00000173adf53380] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 00000173adf53380] profile High, level 2.2, 4:2:0, 8-bit
+[libx264 @ 00000173adf53380] 264 - core 164 r3192 c24e06c - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=2 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=6 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=15 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=15 scenecut=40 intra_refresh=0 rc_lookahead=30 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'neural_network\data\video\converted_95dc1421-0013-4880-ae5d-45877bbee4a1.mp4':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0(eng): Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 640x480 [SAR 1:1 DAR 4:3], q=2-31, 15 fps, 15360 tbn (default)
+      Metadata:
+        alpha_mode      : 1
+        encoder         : Lavc61.19.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[mp4 @ 00000173adf52740] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 00000173adf482c0] video:357KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.460994%
+frame=   68 fps=0.0 q=-1.0 Lsize=     358KiB time=00:00:04.40 bitrate= 666.8kbits/s dup=0 drop=64 speed=15.2x    
+[libx264 @ 00000173adf53380] frame I:1     Avg QP:22.01  size: 16255
+[libx264 @ 00000173adf53380] frame P:17    Avg QP:22.02  size:  7846
+[libx264 @ 00000173adf53380] frame B:50    Avg QP:23.90  size:  4295
+[libx264 @ 00000173adf53380] consecutive B-frames:  1.5%  0.0%  4.4% 94.1%
+[libx264 @ 00000173adf53380] mb I  I16..4:  5.3% 84.0% 10.7%
+[libx264 @ 00000173adf53380] mb P  I16..4:  2.2%  8.0%  0.2%  P16..4: 56.5% 21.8%  9.4%  0.0%  0.0%    skip: 2.0%
+[libx264 @ 00000173adf53380] mb B  I16..4:  3.2%  9.9%  0.0%  B16..8: 33.8%  8.6%  0.0%  direct:33.2%  skip:11.2%  L0:51.7% L1:42.0% BI: 6.4%
+[libx264 @ 00000173adf53380] 8x8 transform intra:76.9% inter:76.7%
+[libx264 @ 00000173adf53380] coded y,uvDC,uvAC intra: 57.5% 91.5% 35.5% inter: 28.7% 79.8% 3.0%
+[libx264 @ 00000173adf53380] i16 v,h,dc,p: 31% 17% 18% 34%
+[libx264 @ 00000173adf53380] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 18% 20% 35%  4%  4%  4%  5%  5%  6%
+[libx264 @ 00000173adf53380] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 32% 22% 11%  6%  6%  6%  6%  6%  6%
+[libx264 @ 00000173adf53380] i8c dc,h,v,p: 63% 14% 19%  4%
+[libx264 @ 00000173adf53380] Weighted P-Frames: Y:23.5% UV:23.5%
+[libx264 @ 00000173adf53380] ref P L0: 60.2% 39.8%
+[libx264 @ 00000173adf53380] ref B L0: 62.7% 37.3%
+[libx264 @ 00000173adf53380] ref B L1: 86.3% 13.7%
+[libx264 @ 00000173adf53380] kb/s:643.04
+
+2025-03-16 23:27:38,184 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:27:38] "[35m[1mPOST /api/fatigue/analyze HTTP/1.1[0m" 201 -
+2025-03-16 23:27:40,752 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:27:40] "[35m[1mGET /api/videos/converted_95dc1421-0013-4880-ae5d-45877bbee4a1.mp4 HTTP/1.1[0m" 206 -
+2025-03-16 23:28:08,312 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:28:08] "POST /api/fatigue/analyze-flight HTTP/1.1" 200 -
+2025-03-16 23:28:10,868 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:28:10] "[35m[1mGET /api/videos/test.mp4 HTTP/1.1[0m" 206 -
+2025-03-16 23:28:19,571 - routes - INFO - Incoming feedback data: {'analysis_id': 92, 'score': 3}
+2025-03-16 23:28:19,583 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:28:19] "POST /api/fatigue/feedback HTTP/1.1" 200 -
+2025-03-16 23:28:49,545 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:28:49] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-16 23:28:49,578 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:28:49] "[36mGET /assets/index-DiEwnttZ.js HTTP/1.1[0m" 304 -
+2025-03-16 23:28:49,585 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:28:49] "[36mGET /assets/index-CpKh2xyC.css HTTP/1.1[0m" 304 -
+2025-03-16 23:28:49,670 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:28:49] "GET /api/profile HTTP/1.1" 200 -
+2025-03-16 23:28:49,674 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:28:49] "GET /api/crew HTTP/1.1" 200 -
+2025-03-16 23:28:49,675 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:28:49] "GET /api/flights?limit=1 HTTP/1.1" 200 -
+2025-03-16 23:28:49,677 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:28:49] "[36mGET /vite.svg HTTP/1.1[0m" 304 -
+2025-03-16 23:28:49,682 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:28:49] "GET /api/flight-eligibility HTTP/1.1" 200 -
+2025-03-16 23:28:51,757 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:28:51] "GET /api/flights/last-completed HTTP/1.1" 200 -
+2025-03-16 23:28:51,759 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:28:51] "GET /api/fatigue/history HTTP/1.1" 200 -
+2025-03-16 23:29:20,395 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:29:20] "GET /api/fatigue/history HTTP/1.1" 200 -
+2025-03-16 23:29:20,399 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 23:29:20] "GET /api/flights/last-completed HTTP/1.1" 200 -
+2025-04-02 18:43:12,665 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.169.24:5000
+2025-04-02 18:43:12,666 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 18:43:12,668 - werkzeug - INFO -  * Restarting with stat
+2025-04-02 18:43:18,054 - werkzeug - WARNING -  * Debugger is active!
+2025-04-02 18:43:18,056 - werkzeug - INFO -  * Debugger PIN: 782-160-045
+2025-04-02 18:43:23,017 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:23] "GET / HTTP/1.1" 200 -
+2025-04-02 18:43:23,065 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:23] "GET /assets/index-CpKh2xyC.css HTTP/1.1" 200 -
+2025-04-02 18:43:23,223 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:23] "GET /assets/index-DiEwnttZ.js HTTP/1.1" 200 -
+2025-04-02 18:43:23,368 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:23] "[31m[1mGET /api/profile HTTP/1.1[0m" 401 -
+2025-04-02 18:43:23,371 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:23] "[31m[1mGET /api/flights?limit=1 HTTP/1.1[0m" 401 -
+2025-04-02 18:43:23,375 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:23] "[31m[1mGET /api/crew HTTP/1.1[0m" 401 -
+2025-04-02 18:43:23,378 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:23] "[31m[1mGET /api/flight-eligibility HTTP/1.1[0m" 401 -
+2025-04-02 18:43:23,384 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:23] "GET /vite.svg HTTP/1.1" 200 -
+2025-04-02 18:43:28,081 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:28] "POST /api/login HTTP/1.1" 200 -
+2025-04-02 18:43:28,097 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:28] "GET /api/profile HTTP/1.1" 200 -
+2025-04-02 18:43:28,098 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:28] "GET /api/flights?limit=1 HTTP/1.1" 200 -
+2025-04-02 18:43:28,099 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:28] "GET /api/crew HTTP/1.1" 200 -
+2025-04-02 18:43:28,103 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:28] "GET /api/flight-eligibility HTTP/1.1" 200 -
+2025-04-02 18:43:32,251 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:32] "[36mGET / HTTP/1.1[0m" 304 -
+2025-04-02 18:43:32,278 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:32] "[36mGET /assets/index-DiEwnttZ.js HTTP/1.1[0m" 304 -
+2025-04-02 18:43:32,285 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:32] "[36mGET /assets/index-CpKh2xyC.css HTTP/1.1[0m" 304 -
+2025-04-02 18:43:32,388 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:32] "GET /api/profile HTTP/1.1" 200 -
+2025-04-02 18:43:32,393 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:32] "GET /api/crew HTTP/1.1" 200 -
+2025-04-02 18:43:32,398 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:32] "GET /api/flights?limit=1 HTTP/1.1" 200 -
+2025-04-02 18:43:32,398 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:32] "[36mGET /vite.svg HTTP/1.1[0m" 304 -
+2025-04-02 18:43:32,401 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:32] "GET /api/flight-eligibility HTTP/1.1" 200 -
+2025-04-02 18:43:40,368 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:40] "GET /api/flights HTTP/1.1" 200 -
+2025-04-02 18:43:41,012 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:41] "GET /api/cognitive-tests HTTP/1.1" 200 -
+2025-04-02 18:43:41,631 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:41] "GET /api/flights?completed=true HTTP/1.1" 200 -
+2025-04-02 18:43:43,042 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:43] "GET /api/flights?completed=true HTTP/1.1" 200 -
+2025-04-02 18:43:43,628 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:43] "GET /api/feedback HTTP/1.1" 200 -
+2025-04-02 18:43:47,192 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:47] "GET /api/fatigue/history HTTP/1.1" 200 -
+2025-04-02 18:43:47,193 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:43:47] "GET /api/flights/last-completed HTTP/1.1" 200 -
+2025-04-02 18:44:15,539 - routes - INFO - Original video saved: neural_network\data\video\6cb209fa-ef90-43d2-aaab-0c043de1e171.webm
+2025-04-02 18:44:17,137 - routes - INFO - FFmpeg output:
+ffmpeg version 7.1-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'neural_network\data\video\6cb209fa-ef90-43d2-aaab-0c043de1e171.webm':
+  Metadata:
+    encoder         : Chrome
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv), 640x480, SAR 1:1 DAR 4:3, 1k tbr, 1k tbn (default)
+      Metadata:
+        alpha_mode      : 1
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp9 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 000001994648e880] using SAR=1/1
+[libx264 @ 000001994648e880] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 000001994648e880] profile High, level 2.2, 4:2:0, 8-bit
+[libx264 @ 000001994648e880] 264 - core 164 r3192 c24e06c - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=2 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=6 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=15 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=15 scenecut=40 intra_refresh=0 rc_lookahead=30 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'neural_network\data\video\converted_5d3b34ed-430e-4bce-bb34-424ac9d29cd3.mp4':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0(eng): Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 640x480 [SAR 1:1 DAR 4:3], q=2-31, 15 fps, 15360 tbn (default)
+      Metadata:
+        alpha_mode      : 1
+        encoder         : Lavc61.19.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=  108 fps=0.0 q=27.0 size=     512KiB time=00:00:07.00 bitrate= 599.2kbits/s dup=0 drop=163 speed=13.7x    
+[mp4 @ 00000199463fe140] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 00000199463fc7c0] video:1146KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.315329%
+frame=  236 fps=0.0 q=-1.0 Lsize=    1149KiB time=00:00:15.60 bitrate= 603.5kbits/s dup=0 drop=233 speed=16.9x    
+[libx264 @ 000001994648e880] frame I:1     Avg QP:16.14  size:  3788
+[libx264 @ 000001994648e880] frame P:62    Avg QP:21.39  size:  6076
+[libx264 @ 000001994648e880] frame B:173   Avg QP:22.31  size:  4577
+[libx264 @ 000001994648e880] consecutive B-frames:  1.7%  0.8%  2.5% 94.9%
+[libx264 @ 000001994648e880] mb I  I16..4: 32.6% 67.2%  0.2%
+[libx264 @ 000001994648e880] mb P  I16..4:  9.3% 14.7%  0.1%  P16..4: 49.3% 15.2%  7.8%  0.0%  0.0%    skip: 3.5%
+[libx264 @ 000001994648e880] mb B  I16..4: 10.5% 18.2%  0.0%  B16..8: 33.3%  8.6%  0.0%  direct:23.1%  skip: 6.2%  L0:55.7% L1:40.3% BI: 4.0%
+[libx264 @ 000001994648e880] 8x8 transform intra:62.8% inter:77.4%
+[libx264 @ 000001994648e880] coded y,uvDC,uvAC intra: 40.2% 81.9% 20.1% inter: 25.2% 78.3% 1.7%
+[libx264 @ 000001994648e880] i16 v,h,dc,p: 27% 19% 14% 40%
+[libx264 @ 000001994648e880] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 13% 23% 39%  4%  4%  3%  5%  3%  6%
+[libx264 @ 000001994648e880] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 28% 19% 23%  6%  7%  5%  6%  3%  2%
+[libx264 @ 000001994648e880] i8c dc,h,v,p: 61% 20% 16%  3%
+[libx264 @ 000001994648e880] Weighted P-Frames: Y:14.5% UV:12.9%
+[libx264 @ 000001994648e880] ref P L0: 53.8% 46.2%
+[libx264 @ 000001994648e880] ref B L0: 57.7% 42.3%
+[libx264 @ 000001994648e880] ref B L1: 78.9% 21.1%
+[libx264 @ 000001994648e880] kb/s:596.12
+
+2025-04-02 18:44:34,397 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:44:34] "[35m[1mPOST /api/fatigue/analyze HTTP/1.1[0m" 201 -
+2025-04-02 18:44:37,884 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:44:37] "[35m[1mGET /api/videos/converted_5d3b34ed-430e-4bce-bb34-424ac9d29cd3.mp4 HTTP/1.1[0m" 206 -
+2025-04-02 18:45:05,025 - routes - INFO - Original video saved: neural_network\data\video\e3312072-e2b3-46f0-bbd9-59878d5f91df.webm
+2025-04-02 18:45:05,800 - routes - INFO - FFmpeg output:
+ffmpeg version 7.1-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'neural_network\data\video\e3312072-e2b3-46f0-bbd9-59878d5f91df.webm':
+  Metadata:
+    encoder         : Chrome
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv), 640x480, SAR 1:1 DAR 4:3, 1k tbr, 1k tbn (default)
+      Metadata:
+        alpha_mode      : 1
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp9 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 000002a32ee7b700] using SAR=1/1
+[libx264 @ 000002a32ee7b700] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 000002a32ee7b700] profile High, level 2.2, 4:2:0, 8-bit
+[libx264 @ 000002a32ee7b700] 264 - core 164 r3192 c24e06c - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=2 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=6 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=15 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=15 scenecut=40 intra_refresh=0 rc_lookahead=30 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'neural_network\data\video\converted_49f4453c-b5fe-42d0-88b3-ffc92c3c7782.mp4':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0(eng): Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 640x480 [SAR 1:1 DAR 4:3], q=2-31, 15 fps, 15360 tbn (default)
+      Metadata:
+        alpha_mode      : 1
+        encoder         : Lavc61.19.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=  107 fps=0.0 q=27.0 size=     512KiB time=00:00:07.00 bitrate= 599.2kbits/s dup=0 drop=161 speed=13.6x    
+[mp4 @ 000002a32ee7ea00] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 000002a32edec980] video:1061KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.281904%
+frame=  181 fps=0.0 q=-1.0 Lsize=    1064KiB time=00:00:11.93 bitrate= 730.5kbits/s dup=0 drop=178 speed=  17x    
+[libx264 @ 000002a32ee7b700] frame I:1     Avg QP:21.40  size: 12113
+[libx264 @ 000002a32ee7b700] frame P:45    Avg QP:21.74  size:  7606
+[libx264 @ 000002a32ee7b700] frame B:135   Avg QP:22.82  size:  5418
+[libx264 @ 000002a32ee7b700] consecutive B-frames:  0.6%  0.0%  0.0% 99.4%
+[libx264 @ 000002a32ee7b700] mb I  I16..4: 13.0% 79.2%  7.8%
+[libx264 @ 000002a32ee7b700] mb P  I16..4:  8.5% 16.3%  0.1%  P16..4: 48.5% 17.5%  7.2%  0.0%  0.0%    skip: 1.8%
+[libx264 @ 000002a32ee7b700] mb B  I16..4:  8.7% 21.8%  0.0%  B16..8: 32.6% 10.3%  0.1%  direct:22.9%  skip: 3.7%  L0:53.8% L1:40.0% BI: 6.2%
+[libx264 @ 000002a32ee7b700] 8x8 transform intra:70.4% inter:74.7%
+[libx264 @ 000002a32ee7b700] coded y,uvDC,uvAC intra: 48.1% 84.0% 24.1% inter: 31.8% 82.2% 2.9%
+[libx264 @ 000002a32ee7b700] i16 v,h,dc,p: 29% 16% 17% 38%
+[libx264 @ 000002a32ee7b700] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 13% 21% 42%  4%  3%  3%  5%  3%  6%
+[libx264 @ 000002a32ee7b700] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 20% 23% 19%  5%  8%  6%  7%  5%  7%
+[libx264 @ 000002a32ee7b700] i8c dc,h,v,p: 61% 20% 16%  4%
+[libx264 @ 000002a32ee7b700] Weighted P-Frames: Y:13.3% UV:8.9%
+[libx264 @ 000002a32ee7b700] ref P L0: 55.7% 44.3%
+[libx264 @ 000002a32ee7b700] ref B L0: 60.5% 39.5%
+[libx264 @ 000002a32ee7b700] ref B L1: 81.7% 18.3%
+[libx264 @ 000002a32ee7b700] kb/s:719.90
+
+2025-04-02 18:45:18,388 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:45:18] "[35m[1mPOST /api/fatigue/analyze HTTP/1.1[0m" 201 -
+2025-04-02 18:45:21,898 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:45:21] "[35m[1mGET /api/videos/converted_49f4453c-b5fe-42d0-88b3-ffc92c3c7782.mp4 HTTP/1.1[0m" 206 -
+2025-04-02 18:45:58,066 - routes - INFO - Original video saved: neural_network\data\video\a1a1ebaa-0025-4b24-a2de-4e6f44100d60.webm
+2025-04-02 18:45:58,850 - routes - INFO - FFmpeg output:
+ffmpeg version 7.1-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'neural_network\data\video\a1a1ebaa-0025-4b24-a2de-4e6f44100d60.webm':
+  Metadata:
+    encoder         : Chrome
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv), 640x480, SAR 1:1 DAR 4:3, 1k tbr, 1k tbn (default)
+      Metadata:
+        alpha_mode      : 1
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp9 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0000017edf6ad180] using SAR=1/1
+[libx264 @ 0000017edf6ad180] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0000017edf6ad180] profile High, level 2.2, 4:2:0, 8-bit
+[libx264 @ 0000017edf6ad180] 264 - core 164 r3192 c24e06c - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=2 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=6 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=15 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=15 scenecut=40 intra_refresh=0 rc_lookahead=30 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'neural_network\data\video\converted_4d691170-a7aa-4fa0-a416-45a62f80e141.mp4':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0(eng): Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 640x480 [SAR 1:1 DAR 4:3], q=2-31, 15 fps, 15360 tbn (default)
+      Metadata:
+        alpha_mode      : 1
+        encoder         : Lavc61.19.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   96 fps=0.0 q=27.0 size=     512KiB time=00:00:06.26 bitrate= 669.4kbits/s dup=0 drop=151 speed=12.1x    
+[mp4 @ 0000017edf61e140] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0000017edf61c980] video:1280KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.218770%
+frame=  165 fps=0.0 q=-1.0 Lsize=    1283KiB time=00:00:10.86 bitrate= 966.9kbits/s dup=0 drop=162 speed=15.2x    
+[libx264 @ 0000017edf6ad180] frame I:2     Avg QP:20.83  size: 13289
+[libx264 @ 0000017edf6ad180] frame P:42    Avg QP:22.52  size:  9537
+[libx264 @ 0000017edf6ad180] frame B:121   Avg QP:23.17  size:  7295
+[libx264 @ 0000017edf6ad180] consecutive B-frames:  1.8%  1.2%  0.0% 97.0%
+[libx264 @ 0000017edf6ad180] mb I  I16..4: 13.4% 80.0%  6.5%
+[libx264 @ 0000017edf6ad180] mb P  I16..4: 10.2% 38.4%  1.1%  P16..4: 33.8% 12.5%  3.6%  0.0%  0.0%    skip: 0.5%
+[libx264 @ 0000017edf6ad180] mb B  I16..4: 11.0% 35.4%  0.1%  B16..8: 27.3% 11.2%  0.4%  direct:14.0%  skip: 0.7%  L0:50.8% L1:39.8% BI: 9.3%
+[libx264 @ 0000017edf6ad180] 8x8 transform intra:76.5% inter:69.5%
+[libx264 @ 0000017edf6ad180] coded y,uvDC,uvAC intra: 55.3% 88.5% 32.2% inter: 39.7% 87.8% 4.5%
+[libx264 @ 0000017edf6ad180] i16 v,h,dc,p: 26% 17% 17% 39%
+[libx264 @ 0000017edf6ad180] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 15% 22% 34%  4%  4%  4%  5%  4%  7%
+[libx264 @ 0000017edf6ad180] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 19% 13%  7% 10%  9%  8%  7%  6%
+[libx264 @ 0000017edf6ad180] i8c dc,h,v,p: 57% 20% 18%  5%
+[libx264 @ 0000017edf6ad180] Weighted P-Frames: Y:7.1% UV:4.8%
+[libx264 @ 0000017edf6ad180] ref P L0: 64.3% 35.7%
+[libx264 @ 0000017edf6ad180] ref B L0: 71.5% 28.5%
+[libx264 @ 0000017edf6ad180] ref B L1: 86.9% 13.1%
+[libx264 @ 0000017edf6ad180] kb/s:952.60
+
+2025-04-02 18:46:10,259 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:46:10] "[35m[1mPOST /api/fatigue/analyze HTTP/1.1[0m" 201 -
+2025-04-02 18:46:12,844 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 18:46:12] "[35m[1mGET /api/videos/converted_4d691170-a7aa-4fa0-a416-45a62f80e141.mp4 HTTP/1.1[0m" 206 -
+2025-04-04 21:51:55,363 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.169.24:5000
+2025-04-04 21:51:55,366 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 21:51:55,366 - werkzeug - INFO -  * Restarting with stat
+2025-04-04 21:52:04,381 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 21:52:04,385 - werkzeug - INFO -  * Debugger PIN: 782-160-045
+2025-04-04 21:52:19,297 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:52:19] "GET / HTTP/1.1" 200 -
+2025-04-04 21:52:19,376 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:52:19] "GET /assets/index-CpKh2xyC.css HTTP/1.1" 200 -
+2025-04-04 21:52:19,600 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:52:19] "GET /assets/index-DiEwnttZ.js HTTP/1.1" 200 -
+2025-04-04 21:52:19,838 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:52:19] "[31m[1mGET /api/profile HTTP/1.1[0m" 401 -
+2025-04-04 21:52:19,842 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:52:19] "[31m[1mGET /api/flights?limit=1 HTTP/1.1[0m" 401 -
+2025-04-04 21:52:19,850 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:52:19] "[31m[1mGET /api/crew HTTP/1.1[0m" 401 -
+2025-04-04 21:52:19,862 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:52:19] "[31m[1mGET /api/flight-eligibility HTTP/1.1[0m" 401 -
+2025-04-04 21:52:19,864 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:52:19] "GET /vite.svg HTTP/1.1" 200 -
+2025-04-04 21:52:25,733 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:52:25] "POST /api/login HTTP/1.1" 200 -
+2025-04-04 21:52:25,775 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:52:25] "GET /api/flights?limit=1 HTTP/1.1" 200 -
+2025-04-04 21:52:25,782 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:52:25] "GET /api/profile HTTP/1.1" 200 -
+2025-04-04 21:52:25,782 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:52:25] "GET /api/flight-eligibility HTTP/1.1" 200 -
+2025-04-04 21:52:25,794 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:52:25] "GET /api/crew HTTP/1.1" 200 -
+2025-04-04 21:52:42,304 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:52:42] "[36mGET /assets/index-CpKh2xyC.css HTTP/1.1[0m" 304 -
+2025-04-04 21:53:02,440 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:53:02] "GET /api/flights HTTP/1.1" 200 -
+2025-04-04 21:53:04,347 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:53:04] "GET /api/cognitive-tests HTTP/1.1" 200 -
+2025-04-04 21:53:05,315 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:53:05] "GET /api/flights?completed=true HTTP/1.1" 200 -
+2025-04-04 21:53:07,378 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:53:07] "GET /api/fatigue/history HTTP/1.1" 200 -
+2025-04-04 21:53:07,380 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:53:07] "GET /api/flights/last-completed HTTP/1.1" 200 -
+2025-04-04 21:53:14,968 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:53:14] "GET /api/profile HTTP/1.1" 200 -
+2025-04-04 21:53:14,978 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:53:14] "GET /api/flights?limit=1 HTTP/1.1" 200 -
+2025-04-04 21:53:14,978 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:53:14] "GET /api/crew HTTP/1.1" 200 -
+2025-04-04 21:53:14,985 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:53:14] "GET /api/flight-eligibility HTTP/1.1" 200 -
